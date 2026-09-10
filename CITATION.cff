@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this dataset, model, or code, please cite the following."
+title: "Persian Handwritten Digits: Dataset and CNN Model"
+type: dataset
+license: CC-BY-4.0
+authors:
+  - family-names: Jokar
+    given-names: Dorna
+  - family-names: Khorsandnikoo
+    given-names: Morteza
+    email: Morteza.Khorsandnikoo@uibk.ac.at
+  - family-names: Aani
+    given-names: Negin
+  - family-names: Salarkia
+    given-names: Alireza
+  - family-names: Sheidaei
+    given-names: Aila
+  - family-names: Ziaratian
+    given-names: Hanieh
+year: 2026
+url: "https://github.com/mortezakhorsandnikoo/PersianDigits"
+preferred-citation:
+  type: article
+  title: "Persian Handwritten Digit Recognition: A Comparative Study of Deep Learning and Machine Learning Models"
+  authors:
+    - family-names: Jokar
+      given-names: Dorna
+    - family-names: Khorsandnikoo
+      given-names: Morteza
+    - family-names: Aani
+      given-names: Negin
+    - family-names: Salarkia
+      given-names: Alireza
+    - family-names: Sheidaei
+      given-names: Aila
+    - family-names: Ziaratian
+      given-names: Hanieh
+  year: 2026
+  notes: "Manuscript under review. Update the venue, volume, and DOI once published."

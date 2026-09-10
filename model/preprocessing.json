@@ -1,0 +1,25 @@
+{
+  "image_size": 16,
+  "n_classes": 10,
+  "channels": 1,
+  "preprocessing": "grayscale, resize to image_size, scale to [0,1], then standardize with norm_mean/std",
+  "norm_mean": 0.9258102774620056,
+  "norm_std": 0.1992301046848297,
+  "dropout": 0.3,
+  "architecture": "DigitCNN: [Conv1->32,3x3,pad1,BN,ReLU,MaxPool2] [Conv2->64,3x3,pad1,BN,ReLU,MaxPool2] [Flatten,Dropout,Linear->128,ReLU,Dropout,Linear->10]",
+  "frozen_test_accuracy": 0.96484375,
+  "cv_accuracy_mean": 0.9710350448247757,
+  "cv_accuracy_std": 0.00801335173841959,
+  "labels": {
+    "0": "0",
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5",
+    "6": "6",
+    "7": "7",
+    "8": "8",
+    "9": "9"
+  }
+}
